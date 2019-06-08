@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14810.11" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment version="4352" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14766.13"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="420" id="l4t-qc-trx" customClass="HogeTableViewCell" customModule="storyboardWithSwiftUI" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="335" height="420"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="l4t-qc-trx" id="kMY-k8-aj1">
+                <rect key="frame" x="0.0" y="0.0" width="335" height="420"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0798" translatesAutoresizingMaskIntoConstraints="NO" id="44e-pJ-vx4">
+                        <rect key="frame" x="0.0" y="0.0" width="335" height="250"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="250" id="IsZ-Sm-XuA"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="eDg-Iq-heJ">
+                        <rect key="frame" x="20" y="270" width="225" height="126"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="みつけよう" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30L-U7-equ">
+                                <rect key="frame" x="0.0" y="0.0" width="64.5" height="13"/>
+                                <fontDescription key="fontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="13"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWJ-nH-Eje">
+                                <rect key="frame" x="0.0" y="28" width="175" height="57"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">身の回りにある
+美しい自然</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="25" name="HiraginoSans-W6"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="7" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wR0-fa-PnC">
+                                <rect key="frame" x="0.0" y="100" width="207.5" height="26"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">公園や道路脇にある
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="0.66666999999999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="13" name="HiraginoSans-W3"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="普段見過ごしている自然の美しさ。">
+                                        <attributes>
+                                            <color key="NSColor" white="0.66666999999999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="13" name="HiraginoSans-W3"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="eDg-Iq-heJ" firstAttribute="leading" secondItem="kMY-k8-aj1" secondAttribute="leading" constant="20" id="LtP-QK-Ce6"/>
+                    <constraint firstItem="eDg-Iq-heJ" firstAttribute="top" secondItem="44e-pJ-vx4" secondAttribute="bottom" constant="20" id="MGm-Ss-BKx"/>
+                    <constraint firstItem="44e-pJ-vx4" firstAttribute="leading" secondItem="kMY-k8-aj1" secondAttribute="leading" id="QfY-0O-1uq"/>
+                    <constraint firstAttribute="bottom" secondItem="eDg-Iq-heJ" secondAttribute="bottom" constant="24" id="XJ3-YF-jOC"/>
+                    <constraint firstItem="44e-pJ-vx4" firstAttribute="top" secondItem="kMY-k8-aj1" secondAttribute="top" id="Y8a-1V-Hyl"/>
+                    <constraint firstAttribute="trailing" secondItem="eDg-Iq-heJ" secondAttribute="trailing" constant="90" id="jse-fg-CST"/>
+                    <constraint firstAttribute="trailing" secondItem="44e-pJ-vx4" secondAttribute="trailing" id="nRz-Jh-6Dd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="categoryLabel" destination="30L-U7-equ" id="3t7-GJ-UCD"/>
+                <outlet property="descriptionLabel" destination="wR0-fa-PnC" id="GDs-yh-07h"/>
+                <outlet property="titleLabel" destination="tWJ-nH-Eje" id="ERA-iu-Jm1"/>
+                <outlet property="topImage" destination="44e-pJ-vx4" id="zoP-72-MQI"/>
+            </connections>
+            <point key="canvasLocation" x="913.60000000000002" y="76.911544227886068"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="IMG_0798" width="1224" height="1632"/>
+    </resources>
+</document>
